@@ -76,7 +76,7 @@ p#para {
 .box img {
     display: block;
     float: right;
-    margin-top: 45px; 
+    margin-top: 31px;
 }
 div.resize {
     margin: 0 auto;
@@ -96,12 +96,14 @@ div.resize {
         margin: 0 auto;
         padding: 0;
         max-width: 375px;
+        height: 100vh;
+        /* display: grid; */
     }
     header {
         margin: 70px auto 0
     }
     div.resize {
-        margin: 0 auto;
+        margin: 16px auto 10px;
         width: 329px;
         text-align: center;
         font-weight: 200;
@@ -110,20 +112,18 @@ div.resize {
         font-size: 25px;
     }
     div.container {
-        display: block;
-        margin: 0 auto;
+        display: inline-block;
+        margin: 56px auto;
+        width: 375px;
+        padding: 0;
     }
     .cont {
         transform: translateY(0);
     }
     .box {
-        width: 375px;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .cyan {
-        display: block;
-        position: absolute;
-        left: 5px;
+        width: 320px;
+        margin: 0 auto 34px;
+        padding: 30px;
+        height: 239px;
     }
 }
