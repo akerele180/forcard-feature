@@ -127,7 +127,7 @@ div.resize {
         height: 239px;
     }
 }
-@media only screen and (orientation: landscape){
+/*@media only screen and (orientation: landscape){
     .container {
         position: relative;
         left: -36px;
