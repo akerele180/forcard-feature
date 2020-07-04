@@ -91,7 +91,7 @@ div.resize {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     body {
         margin: 0 auto;
         padding: 0;
