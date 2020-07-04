@@ -127,3 +127,21 @@ div.resize {
         height: 239px;
     }
 }
+@media only screen and (orientation: landscape){
+    .container {
+        position: relative;
+        left: -36px;
+        width: 896px;
+    }
+    header {
+        position: relative;
+        left: 256px;
+    }
+    .resize {
+        position: relative;
+        left: 111px;
+    }
+    p#para {
+        width: 223%;
+    }
+  }
